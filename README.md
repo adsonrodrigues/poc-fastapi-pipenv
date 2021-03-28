@@ -1,4 +1,4 @@
-# Cliente CRUD
+# FAST API Tutorial
 ___
 [![build](https://img.shields.io/badge/build-passing-green)](build) [![docker](https://img.shields.io/badge/docker%20build-automated-important)](docker) [![docker-version](https://img.shields.io/badge/version-19.03.8-important)](docker-version) [![license](https://img.shields.io/badge/license-MIT-blue)](license)
 
@@ -56,6 +56,20 @@ ___
 ```sh
 $ docker-compose up -d
 ```
+
+### Comandos Úteis Pipenv
+___
+```sh
+$ pipenv install <pacote>
+$ pipenv install pytest --dev
+$ pipenv lock
+$ pipenv graph
+$ pipenv graph --reverse
+$ pipenv check
+$ pipenv uninstall --all
+$ pipenv uninstall --all-dev
+```
+
 
 ## API
 ___
