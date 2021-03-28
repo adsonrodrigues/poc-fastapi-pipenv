@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  service:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: adsonrodrigues/fast-api
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/usr/local/app
+    stdin_open: true
+    tty: true
